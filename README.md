@@ -1,4 +1,4 @@
-# Qrandomnumber
+# QRandomNumber
 
 This code does the same thing as the classical function random.randint() that exist in python. Except this time it was adapted to run on a Quantum Computer!
 
