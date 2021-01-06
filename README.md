@@ -9,9 +9,14 @@ Exemple: We want to generate numbers between 0 and 20. We will sqrt(20) and find
 We then apply a Hadamard gate to every qubit and then measure them. 
 The circuit will look like this: 
 
+
 ![Screenshot](circuit.PNG)
 
+
 Once the circuit is generated, we will run the simulation on the qasm simulator which will return all binary output and their predictions:
+
+
 ![Screenshot](prob.PNG)
 
-Finally, we simply take the value with the highest prediction we convert the binary number to an integer. 
+
+Finally, we simply take the value with the highest prediction we convert the binary number to an integer using the python built-in function. 
